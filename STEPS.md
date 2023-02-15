@@ -3,8 +3,9 @@
 ## Build and run
 The application has been built and run using Intellij IDE.
 I'm used to compile and run java applications using respectively the following instructions: 
-javac ClassName.java
-java ClassName
++ javac ClassName.java
++ java ClassName
+
 But I have never built or run a kotlin application from the command line.
 
 
