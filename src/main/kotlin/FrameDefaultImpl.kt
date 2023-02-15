@@ -26,9 +26,9 @@ class FrameDefaultImpl(vararg line: String): Frame{
             return lines[0]
         }
         var frame = ""
-        for(i in 0 until lines.size - 1) {
+        for(element in lines) {
 
-            frame += lines[i]
+            frame += element
         }
         return frame
     }

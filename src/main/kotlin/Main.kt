@@ -1,5 +1,3 @@
-import kotlin.collections.ArrayList
-
 fun main(args: Array<String>) {
     //List of elements
     val el = ElementList()
@@ -11,7 +9,7 @@ fun main(args: Array<String>) {
     val element1 = elementFrame(el.elements[0])
     val element2 = element1.atLeftOf(elementFrame((el.elements[1])))
     val element3 = element1.onTopOf(elementFrame(el.elements[2]))
-    println(element1.toString() + element2.toString() + element3.toString())
+    //println(element1.toString() + element2.toString() + element3.toString())
 
     //Empty Frame
     val empty = FrameDefaultImpl("      ", "     ", "     ", "     ", "      ")
